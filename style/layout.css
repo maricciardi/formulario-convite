@@ -1,0 +1,48 @@
+#app {
+    display: grid;
+    grid-template-columns: 33.60% 66.40%;
+    gap: 1.25rem;
+    margin: 1.25rem;
+
+    height: 100vh;
+    overflow: hidden;
+}
+
+aside {
+    background-image: url(../assets/Background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    border-radius: .75rem;
+
+    & header {
+        display: grid;
+        grid-template-rows: auto;
+    }
+
+    & #party-emoji {
+        height: 3rem;
+    }
+
+    & #logo {
+        height: 2.5rem;
+        margin-top: 1rem;
+    }
+
+    & p {
+        margin-top: 1rem;
+        font: var(--body-md);
+        color: var(--text-heading);
+    }
+}
+
+main {
+    background-color: var(--shape-body);
+    padding: 8.125rem 5rem 8.125rem 5rem;
+    border-radius: .75rem;
+
+    & h2 {
+        font: var(--header-md);
+    }
+}
+
