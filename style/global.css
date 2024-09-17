@@ -35,12 +35,20 @@
 
     --font-family: "Open Sans", sans-serif;
     --header-md: 700 1.75rem/1.25 var(--font-family);
+    --header-sm: 700 1.125rem/1.25 var(--font-family);
 
-    --body-md: 300 1rem/1.25 var(--font-family);
+    --body-md-sb: 300 1rem/1.25 var(--font-family);
+    --body-sm-sb: 300 .87rem/1.25 var(--font-family);
+    --body-xs-sb: 300 .75rem/1.25 var(--font-family);
+
+    --body-md: 400 1rem/1.25 var(--font-family);
+    --body-sm: 400 .87rem/1.25 var(--font-family);
+    --body-xs: 400 .75rem/1.25 var(--font-family);
 
 }
 
 body {
     background-color: var(--shape-background);
+    overflow: hidden;
 }
 

@@ -3,9 +3,8 @@
     grid-template-columns: 33.60% 66.40%;
     gap: 1.25rem;
     margin: 1.25rem;
-
-    height: 100vh;
     overflow: hidden;
+    height: 100vh;
 }
 
 aside {
@@ -14,6 +13,10 @@ aside {
     background-position: center;
     padding: 2rem;
     border-radius: .75rem;
+
+    & .aside-container {
+        max-width: 25rem;
+    }
 
     & header {
         display: grid;
@@ -31,18 +34,25 @@ aside {
 
     & p {
         margin-top: 1rem;
-        font: var(--body-md);
+        font: var(--body-md-sb);
         color: var(--text-heading);
     }
 }
 
 main {
     background-color: var(--shape-body);
-    padding: 8.125rem 5rem 8.125rem 5rem;
     border-radius: .75rem;
+    overflow: auto;
+    padding: 5rem 8.125rem 5rem 8.125rem;
 
     & h2 {
         font: var(--header-md);
+        color: var(--text-heading);
+    }
+
+    & .main-container {
+        background-color: rgb(96, 62, 62);
+        
     }
 }
 
