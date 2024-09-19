@@ -1,9 +1,8 @@
  .theme-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(8.4rem, 1fr));
     margin-top: 1rem;
     gap: .5rem;
-    background-color: white;
 }
 
 
@@ -18,16 +17,17 @@
     padding: .25rem;
     text-align: center;
     justify-items: center;
+    cursor: pointer; 
 
     & img {
         max-width: 7.6rem;
         border-radius: .4rem;
+        margin-bottom: .3rem;
     }
 
     & label {
         color: var(--text-heading);
         font: var(--body-sm);
-        padding-top: .3rem;
     }
 
     &:hover, &:focus-within {

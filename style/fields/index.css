@@ -1,5 +1,7 @@
 @import url(line.css);
 @import url(input.css);
-@import url(checkbox.css);
+@import url(checkbox-about.css);
 @import url(radio-color.css);
 @import url(radio-theme.css);
+@import url(checkbox-pers.css);
+@import url(droparea.css);

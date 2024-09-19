@@ -1,4 +1,4 @@
-input[type="checkbox"] {
+.about input[type="checkbox"] {
     cursor: pointer;
     transition: .3s;
     position: relative;
@@ -6,7 +6,7 @@ input[type="checkbox"] {
     height: 3rem;
 }
 
-input[type="checkbox"]::before {
+.about input[type="checkbox"]::before {
     content: "";
     position: absolute;
     width: 49%;
@@ -19,7 +19,7 @@ input[type="checkbox"]::before {
     transition: .3s;
 }
 
-input[type="checkbox"]::after {
+.about input[type="checkbox"]::after {
     content: "Presencial";
     font: var(--body-sm);
     color: var(--text-heading);
@@ -30,14 +30,13 @@ input[type="checkbox"]::after {
 
 
 
-input[type="checkbox"]:checked:before {
+.about input[type="checkbox"]:checked:before {
     left: 50%;
 }
 
-input[type="checkbox"]:checked::after {
+.about input[type="checkbox"]:checked::after {
     content: "Online";
     left: 55%;
-    
 }
 
 
