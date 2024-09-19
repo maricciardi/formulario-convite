@@ -10,7 +10,7 @@ input, textarea, select {
     background-color: var(--input-base);
 }
 
-label {
+.input-wrapper > label {
     display: block;
     font: var(--body-sm);
     color: var(--text-body);

@@ -18,6 +18,13 @@ legend {
     display: flex;
     align-items: center;
     gap: .8rem;
-    margin-bottom: 1rem;
+    margin-bottom: .6rem;
 }
 
+fieldset + fieldset {
+    margin-top: 3rem;
+}
+
+input[type="radio"] {
+    display: none; 
+}
