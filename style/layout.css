@@ -2,9 +2,10 @@
     display: grid;
     grid-template-columns: 33.60% 66.40%;
     gap: 1.25rem;
-    margin: 1.25rem;
+    padding: 1.25rem;
     overflow: hidden;
     height: 100vh;
+    margin-right: 1.25rem;
 }
 
 aside {
@@ -44,15 +45,14 @@ main {
     border-radius: .75rem;
     overflow: auto;
     padding: 5rem 8.125rem 5rem 8.125rem;
+    
 
     & h2 {
         font: var(--header-md);
         color: var(--text-heading);
     }
-
-    & .main-container {
-        background-color: rgb(96, 62, 62);
-        
-    }
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
