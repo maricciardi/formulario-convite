@@ -1,0 +1,45 @@
+.terms {
+    & .input-wrapper {
+        position: relative;
+        display: flex;
+
+        & p {
+            font: var(--body-sm-sb);
+            color: var(--text-body);
+            margin-left: 2rem;
+    
+            & span {
+                font: var(--body-sm);
+                color: var(--brand-light);
+            }
+        }
+
+        & input[type="checkbox"] {
+            all: unset;
+            position: absolute;
+            inset: 0;
+            cursor: pointer;
+        }
+    
+        .checkbox-image {
+            height: 1.25rem;
+            width: 1.25rem;
+            background-image: url(../../assets/icons/check-default.svg);
+            position: absolute;
+        }
+    
+        &:has(:checked) .checkbox-image {
+            width: 1.25rem;
+            height: 1.25rem;
+            background-image: url(../../assets/icons/checked.svg);
+        }
+    }
+}
+
+
+
+
+
+
+
+

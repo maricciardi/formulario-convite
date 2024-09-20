@@ -31,12 +31,12 @@
     top: .3rem;
     transition: .3s;
     
+    
 }
-
-
 
 .personalization input[type="checkbox"]:checked:before {
     left: 50%;
+    background-color: var(--text-heading);
 }
 
 .personalization input[type="checkbox"]:checked::after {

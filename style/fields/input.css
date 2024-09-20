@@ -8,7 +8,20 @@ input, textarea, select {
     border: 1px solid transparent;
     outline: 1px solid var(--input-stroke);
     background-color: var(--input-base);
+
+    &[required] + .error {
+        display: flex;
+            align-items: center;
+            gap: .5rem;
+        
+            font: var(--body-xs);
+            color: var(--danger);
+            margin-top: .5rem;
+
+        
+    }
 }
+
 
 .input-wrapper > label {
     display: block;
@@ -27,4 +40,6 @@ input[type="date"] {
         opacity: 0;
     }
 }
+
+
 
